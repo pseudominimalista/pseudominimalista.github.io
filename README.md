@@ -2,5 +2,9 @@
 Esse site ainda tá bem vazio, não tem nada de  
 extraordinário nele.
 
-Ele foi feito pra ter uma boa usabilidade na minha  
-build do surf, ela pode ser encontrada [aqui](https://codeberg.org/pseudo-minimalista/suckless/src/branch/main/src/surf)
+No momento, eu estou usando ele como um lugar  
+para aprender Web Development.  
+
+Estou fazendo isso no Codeberg porque ele tem  
+um ambiente Web confortável de desenvolvimento  
+na minha opinião.
