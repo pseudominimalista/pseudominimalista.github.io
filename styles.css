@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 * {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 		'JetBrains Mono', monospace;
 	margin:				0;
 	padding:			0;
 	color:				#D8DEE9;
@@ -10,13 +10,14 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    display: 			none;
 }
 
 body {
 	background-color:	#2E3440;
 	color:				#D8DEE9;
 }
+
 .navbar {
 	width:				100%;
 	position:			fixed;
@@ -25,40 +26,51 @@ body {
 	margin:				0;
 	padding:			0;
 }
+
 .navbar ul {
 	overflow:			hidden;
 }
+
 .navbar li {
 	float:				left;
-}.navbar .right {
+}
+
+.navbar .right {
 	float:				right;
 	display:			block;
 	text-align:			center;
 	padding:			6px 8px;
 }
+
 .navbar a {
 	display:			block;
 	text-align:			center;
 	padding:			6px 8px;
 }
+
 .navbar a:hover:not(.active) {
 	background-color:	#434C5E;
 }
+
 .active {
 	background-color:	#2E3440;
 }
+
 .welcome {
 	padding-top:		3em;
 }
+
 .welcome center {
 	padding-top:		10%;
 	padding-bottom:		10%;
 	padding-left:		20%;
 	padding-right:		20%;
 }
+
 .lista {
 	padding-top:		4em;
 }
+
 .imagens {
 	position:			static;
 	padding-top:		1em;
@@ -67,6 +79,7 @@ body {
 	float:				left;
 	width:				500px;
 }
+
 .red{
 	color:				#5E81AC;
 }
