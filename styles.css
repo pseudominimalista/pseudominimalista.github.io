@@ -32,6 +32,7 @@ body {
 	background-color:	#3B4252;
 	margin:				0;
 	padding:			0;
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 5px 15px;
 }
 
 .navbar ul {
@@ -46,7 +47,6 @@ body {
 	float:				right;
 	display:			block;
 	text-align:			center;
-	padding:			6px 8px;
 }
 
 .navbar a {
@@ -81,7 +81,7 @@ body {
 .imagens {
 	position:			static;
 	padding-top:		1em;
-	padding-left:		10%;
+	padding-left:		10%; 
 	padding-right:		2em;
 	float:				left;
 	width:				500px;
