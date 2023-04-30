@@ -18,6 +18,11 @@ body {
 	color:				#D8DEE9;
 }
 
+.description {
+	/*padding-top: 1em;*/
+	padding-bottom: 12em;
+}
+
 .navbar {
 	width:				100%;
 	position:			fixed;
