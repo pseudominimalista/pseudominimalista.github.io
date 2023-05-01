@@ -65,7 +65,7 @@
 }
 
 .bemvindo {
-	font-size: 			1.8rem;
+	font-size: 			1.8em;
 	padding-bottom: 	0.4em;
 }
 
@@ -112,6 +112,14 @@
 		font-size: 			2em;
 	}
 	
+	.bemvindo {
+		font-size: 			1.6em;
+	}
+
+	.sobre {
+		font-size: 			1.2em;
+	}
+
 	.btn {
 		padding:			10px 12px;
 	}
