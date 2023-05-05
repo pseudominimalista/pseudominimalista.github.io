@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html data-theme="dark" lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 		<link rel="icon" type="image/x-jpeg" href="imagens/fav.jpg">
 		<title>pseudo-minimalista - início</title>
+		<style>
+			:root {
+				--primary: #4C566A;
+				--primary-hover: #434C5E;
+				--background-color: #2e3440;
+				--color: #d8dee9;
+				--card-background-color: #3B4252;	
+			}
+			::-webkit-scrollbar{
+				display: none;
+			}
+		</style>
 	</head>
-	<body>
-		<div class="navbar">
+	<body class="container-fluid">
+			<nav>
 				<ul>
-					<li class="left"><a class="btn active" href="index.html">Início</a></li>
-					<li class="left"><a class="btn" href="projetos.html">Projetos</a></li>
-					<li class="right"><a class="btn" href="https://github.com/pseudominimalista" target="_blank">pseudo-minimalista</a></li>
+					<li><strong><a style="color: #5E81AC;" href="index.html">pseudominimalista</a></strong></li>
 				</ul>
-		</div>
-		<div class="home">
-			<p class="bemvindo">
-				<b class="negrito">Bem-vindo</b> ao meu Website!
-			</p>
-			<p class="sobre">
-				Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente
-				e também onde irei guardar meu portifólio (futuramente).
-			</p>
-		</div>
+				<ul>
+					<li><a role="button" href="index.html">Início</a></li>
+					<li><a role="button" class="outline" href="projetos.html">Projetos</a></li>
+				</ul>
+			</nav>
+		
+			<main class="container">
+			<article>
+				<center>
+				<h3><p><strong>Bem-vindo</strong> ao meu Website!</p></h3>
+				<p>Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente e também onde irei guardar meu portifólio (futuramente).</p>
+				</center>
+			</article>
+		</main>
 	</body>
 </html>
