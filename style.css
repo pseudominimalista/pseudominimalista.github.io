@@ -1,0 +1,48 @@
+:root {
+    --primary: 					#33d17a;
+    --primary-hover: 			#2ec27e;
+    --primary-focus: 			#26a269;
+    --background-color: 		#241f31;
+    --color: 					#f6f5f4;
+    --card-background-color: 	#3d3846;	
+}
+
+#logo {
+    color:                      #9141ac;
+}
+
+/* Animações */
+
+#fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#fade-in-up {
+    animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
