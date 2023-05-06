@@ -1,26 +1,15 @@
-
-/* Paleta de cores */
-
-:root {
-    --primary: 					#33d17a;
-    --primary-hover: 			#2ec27e;
-    --primary-focus: 			#26a269;
-    --background-color: 		#241f31;
-    --color: 					#f6f5f4;
-    --card-background-color: 	#3d3846;	
+html {  
+    scroll-behavior: smooth;  
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    width: 0.25rem;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
 }
 
-#logo {
-    color:                      #9141ac;
-}
-
-/* Animações */
-
-#fade-in {
+.fade-in {
     animation: fadeIn 1s;
 }
 
@@ -34,7 +23,7 @@
     }
 }
 
-#fade-in-up {
+.fade-in-up {
     animation: fadeInUp 1s;
 }
 
