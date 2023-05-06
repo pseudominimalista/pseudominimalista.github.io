@@ -11,6 +11,7 @@ html {
 ::-webkit-scrollbar {
     width: 0.25rem;
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--primary);
 }

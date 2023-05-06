@@ -8,25 +8,35 @@
 		<link rel="icon" type="image/x-jpeg" href="img/fav.jpg">
 		<title>pseudominimalista - início</title>
 	</head>
-	<body class="container-fluid">
-			<nav>
-				<ul>
-					<li><strong><a href="#topo">pseudominimalista</a></strong></li>
-				</ul>
-				<ul>
-					<li><a role="button" class="secondary" href="#" id="theme_switcher"></a></li>
-				</ul>
-			</nav>
-			<header class="container">
-				<article class="hidden" id="topo">
-					<center>
-					<h3><p><strong>Bem-vindo</strong> ao meu Website!</p></h3>
-					<p>Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente e também onde irei guardar meu portifólio.</p>
-					<a role="button" href="#projetos">Ver Meus Projetos</a>
-					</center>
-				</article>
-			</header>
-			<main class="container" id="projetos"></main>
+	<body class="container-fluid ">      <nav class="container-fluid">
+        <ul>
+          <li>
+            <a href="./" class="contrast" onclick="event.preventDefault()"><strong>pseudominimalista</strong></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Tema</summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Claro</a></li>
+                <li><a href="#" data-theme-switcher="dark">Escuro</a></li>
+              </ul>
+            </details>
+          </li>
+    	</ul>
+    </nav>
+	<header class="container">
+		<article class="hidden" id="topo">
+			<center>
+				<h3><p><strong>Bem-vindo</strong> ao meu Website!</p></h3>
+				<p>Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente e também onde irei guardar meu portifólio.</p>
+				<a role="button" href="#projetos">Ver Meus Projetos</a>
+			</center>
+		</article>
+	</header>
+		<main class="container" id="projetos"></main>
 			<h1><center><p><strong class="hidden">Projetos</strong></p></center></h1>
 			<div class="grid">
 				<article class="container hidden">
