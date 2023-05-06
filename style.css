@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;  
 }
 
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 0.25rem;
 }
@@ -13,6 +19,7 @@ html {
     animation: fadeIn 1s;
 }
 
+
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -23,20 +30,17 @@ html {
     }
 }
 
-.fade-in-up {
-    animation: fadeInUp 1s;
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 1s;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
+
 
 
