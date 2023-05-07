@@ -1,0 +1,9 @@
+{
+    "name": "pseudominimalista",
+    "start_url": "/?home=true",
+    "icons": ["img/fav.jpg"],
+    "theme_color": "#000000",
+    "background_color": "FFFFFF",
+    "display": "fullscreen",
+    "orientation": "portrait" 
+}
