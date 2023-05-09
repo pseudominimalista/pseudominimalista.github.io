@@ -1,93 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-		<link rel="stylesheet" href="custom.css">
-		<link rel="icon" type="image/x-jpeg" href="img/fav.jpg">
-		<title>pseudominimalista</title>
-	</head>
-	<body class="container-fluid ">      <nav class="container-fluid">
-        <ul>
-          <li>
-            <a href="./" class="contrast" onclick="event.preventDefault()"><strong>pseudominimalista</strong></a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <details role="list" dir="rtl">
-              <summary aria-haspopup="listbox" role="link" class="contrast">Tema</summary>
-              <ul role="listbox">
-                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
-                <li><a href="#" data-theme-switcher="light">Claro</a></li>
-                <li><a href="#" data-theme-switcher="dark">Escuro</a></li>
-              </ul>
-            </details>
-          </li>
-    	</ul>
-    </nav>
-	<header class="container">
-		<article class="hidden" id="topo">
-			<div>
-				<hgroup>	
-					<h2><strong>Bem-vindo</strong> ao meu Website!</h2>
-					<h4>Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente <br>
-						e também onde irei guardar meu portifólio.</h4>
-				</hgroup>
-			</div>
-		</article>
-	</header>
-		<main class="container" id="sobre">
-			<h1><center><strong class="hidden">Sobre Mim</strong></center></h1>
-			<div class="grid">
-			<article class="hidden">
-				<div>
-					<hgroup>
-						<h2>Quem Sou Eu?</h2>
-						<h4>Sou alguém que gosta do ecossistema do Google e que por acaso tem um Github.<br><br>
-							Sou também alguém que ama o mundo Linux e tento sempre ficar atento com novidades sobre o assunto.</h4>
-					</hgroup>
-				</div>
-			</article>
-			<article class="hidden">
-				<div>
-					<hgroup>
-						<h2>O que eu faço?</h2>
-						<h4>Atualmente estudo Web Development, testo diversas distribuições Linux (fazendo uso de máquinas virtuais ou em hardware puro) e faço reparos em computadores no meu tempo livre.<br><br>
-						Tudo isso como um Hobbie, porém, tenho o interesse de transformar isso em algo maior.</h4>
-					</hgroup>
-				</div>
-			</article>
-		</div>
-		</main>
-		<main class="container hidden" id="projetos"></main>
-			<h1><center><strong class="hidden">Meus Projetos</strong></center></h1>
-			<div class="grid">
-				<article class="container hidden">
-					<div>
-						<hgroup>
-							<h2><center><a href="https://github.com/pseudominimalista/labwc" target="_blank"><img width="600px" src="img/labwc.png"></a></center></h2>
-							<h4 style="padding: 2em;">Aqui eu guardo o meu setup do Labwc, um compositor Wayland. <br><br>Ele é o meu setup atual, porém eu não fiz o upload de todas as minhas modificações nele, pelo menos por enquanto.</h4>
-						</hgroup>
-					</div>
-				</article>
-				<article class="container hidden">
-					<div>
-						<hgroup>
-							<h2><center><a href="https://github.com/pseudominimalista/suckless" target="_blank"><img width="600px" src="img/suckless.png"></a></center></h2>
-							<h4 style="padding: 2em;">Esse repositório se trata de um setup com múltiplas paletas de cores, sendo elas: Solarized Dark/Light, Rosé Pine e Nord.<br><br> Todo o ambiente gira em torno de utilitários e programas que feitos pela equipe Suckless ou simpatizantes.</h4>
-						</hgroup>
-					</div>
-				</article>
-			</div>
-		</main>
-		<footer>
-			<small>Feito utilizando <a href="https://picocss.com" target="_blank">Pico.css</a></small>
-		  </footer>
-		<script src="script.js"></script>
-	</body>
+<html data-theme="dark" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="icon" type="image/x-jpeg" href="img/fav.jpg">
+    <link rel="stylesheet" href="custom.css">
+    <title>Início</title>
+</head>
+<body>
+
+<!-- HTML -->
+<div class="hero início">
+  <nav class="container-fluid">
+    <ul>
+      <li><a class="contrast" href="https://github.com/pseudominimalista">Github</a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html" class="primary">Início</a></li>
+      <li><a class="contrast" href="sobre.html">Sobre Mim</a></li>
+      <li><a class="contrast" href="projetos.html">Meus Projetos</a></li>
+    </ul>
+</nav>
+<header class="container">
+  <hgroup>
+    <h1>pseudominimalista</h1>
+    <h2>Eu realmente gosto desse nome.</h2>
+</hgroup><br>
+</header>
+</div>
+
+<main class="container">
+  <div class="grid">
+    <section>
+       <hgroup>
+           <h1>Bem-vindo ao meu website</h1>
+           <h2>Espero que goste da visita</h2>
+       </hgroup>
+       <p>Aqui eu guardo informações sobre projetos em que estou trabalhando atualmente e também onde irei guardar meu portifólio. Este site também servirá como um blog pessoal onde poderei comentar sobre assuntos que me interessam (futuramente).</p>
+      </section>
+
+      <!-- <aside>
+        <a href="#"><img src="img/labwc.png"></a><p><a>Labwc</a><br><small> setup do compositor wayland "Labwc"</small></p>
+        <a href="#"><img src="img/suckless.png"></a><p><a>Suckless</a><br><small>setup com ferramentas suckless</small></p>
+      </aside> -->
+    </div>
+</main>
+    
+<footer class="container-fluid">Feito utilizando <a href="picocss.com">Pico.css</a> com base no exemplo <a href="https://852uq7.csb.app/">Company</a></footer>
+</body>
 </html>
