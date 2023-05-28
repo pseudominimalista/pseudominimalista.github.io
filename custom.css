@@ -26,12 +26,10 @@ html {
 @keyframes fade {
   from {
     filter: blur(3px);
-    /* transform: scale(99%); */
     opacity: 0.2;
   }
   to {
     filter: blur(0);
-    /* transform: scale(100%); */
     opacity: 1;
   }
   
@@ -48,10 +46,18 @@ hgroup> :last-child {
     background-size: cover;
 }
 
+
+/* Essa imagem foi retirada da coleção de imagens padrão do Google Sites, o link tá aqui se você tiver interesse:
+   https://lh3.googleusercontent.com/ZTKGRc7wopT8DELrEVIbMRx3L43B5qizSpUSRFn3RpR8S2wGOQOib4bJ1gE0UXkiMpiryRrgCD5oMVy-izsuodE=w16383 */
 .início {
     background-image: url(img/início.jpeg);
 }
 
+
+/* Bem, eu basicamente só fiz essas duas classes para que as páginas tivessem imagens diferentes, e como o site está hostiado no github
+   eu não quero colocar um monte de imagens no repositório, no lugar disso eu decidi colocar links diretos para as imagens que eu quero.
+   
+   Isso acaba servindo também como uma forma de creditar os autores das imagens originais, de certa forma pelo menos...*/
 .projetos {
     background-image: url(https://images.unsplash.com/photo-1514162005038-8332a12a5c9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
 }
