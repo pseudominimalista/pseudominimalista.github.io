@@ -23,18 +23,6 @@ html {
     animation: fade 1s;
 }
 
-@keyframes fade {
-  from {
-    filter: blur(3px);
-    opacity: 0.2;
-  }
-  to {
-    filter: blur(0);
-    opacity: 1;
-  }
-  
-}
-
 h2,
 h3,
 hgroup> :last-child {
@@ -66,6 +54,10 @@ hgroup> :last-child {
     background-image: url(https://images.unsplash.com/photo-1529346378633-c2b2a059c367?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 
+main {
+  animation: main 1.2s;
+}
+
 small {
     color: var(--muted-color);
   }
@@ -91,3 +83,27 @@ aside p {
     margin-bottom: var(--spacing-company);
     line-height: 1.25;
   }
+
+
+/* Animações */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
+
+@keyframes main {
+  from {
+    transform: scale(98%);
+    opacity: 0;
+  }
+  to {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  
+}
