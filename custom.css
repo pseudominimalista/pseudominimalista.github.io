@@ -10,21 +10,22 @@ html {
   --color:              #D8DEE9;
   --h1-color:           #ECEFF4;
   --h2-color:           #E5E9F0;
-  --h3-color:           #D8DEE9;
-  --h4-color:           #D8DEE9;
-  --h5-color:           #D8DEE9;
-  --h6-color:           #D8DEE9;
-  --muted-color:        #d8dee9;
+  --h3-color:           var(--color);
+  --h4-color:           var(--color);
+  --h5-color:           var(--color);
+  --h6-color:           var(--color);
+  --muted-color:        var(--color);
   --muted-border-color: #3B4252;
   --primary:            #5E81AC;
   --primary-hover:      #81A1C1;
   --primary-focus:      #88C0D0;
-  --secondary:          #88C0D0;
+  --secondary:          var(--primary-focus);
   --secondary-hover:    #8FBCBB;
-  --secondary-focus:    #D8DEE9;
+  --secondary-focus:    var(--color);
   --contrast:           #434C5E;
   --contrast-hover:     #4C566A;
-  --contrast-focus:     #3B4252;
+  --contrast-focus:     var(--muted-border-color);
+  --card-background-color: var(--muted-border-color);
 }
 
 ::-webkit-scrollbar {
@@ -56,6 +57,10 @@ hgroup> :last-child {
 
 .sobre {
     background-image: url(img/nord_lake.png);
+}
+
+.blog {
+    background-image: url(img/kittyboard.png);
 }
 
 small {

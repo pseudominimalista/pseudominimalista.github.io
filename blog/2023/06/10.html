@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.css">
+    <link rel="icon" type="image/x-jpeg" href="../../../img/fav.png">
+    <link rel="stylesheet" href="../../../custom.css">
+    <title>10/06/2023</title>
+</head>
+<body>
+
+<div class="hero blog">
+  <nav class="container-fluid">
+    <ul>
+      <li></li>
+  </ul>
+  <ul>
+      <li><a class="contrast"  href="../../../index.html">Início</a></li>
+      <li><a class="contrast" href="../../../sobre.html">Sobre</a></li>
+      <li><a class="contrast" href="../../../projetos.html">Projetos</a></li>
+      <li><a class="primary" href="../../blog.html">Blog</a></li>
+  </ul>
+</nav>
+<header class="container">
+  <hgroup>
+    <h1>Blog</h1>
+    <h2>Junho 10, 2023</h2>
+</hgroup><br>
+</header>
+</div>
+
+<main class="container">
+  <div class="grid">
+    <section>
+
+       <hgroup>
+           <h1>Sway, um compositor Wayland</h1>
+           <h2>Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.<br>Eu só tô entediado e sem nada melhor para fazer.</h2>
+       </hgroup>
+
+       <p>Nos últimos dias dessa semana eu voltei a utilizar o <a href="https://swaywm.org" target="_blank">Sway</a> (A interface gráfica, não o programa da Microsoft) só por puro tédio. Eu tive que pegar uma configuração antiga minha e reconfigurar (quase) tudo para deixar ela atualizada e confortável para o meu workflow atual, como por exemplo uma troca na paleta de cores.<br><br>
+
+        Antes a paleta de cores que eu usava era a <a href="https://catppuccin.com" target="_blank">Catppuccin Mocha</a>, porém, por alguma razão ela me dá dores de cabeça. Isso pode ter relação com o contraste que eles usam, eu sinceramente não sei. Eu só sei que ela me dá dor de cabeça, então eu troquei ela por outra paleta de cores, essa que é confortável para os meus olhos e também é muito bonita: <a href="https://nordtheme.com" target="_blank">Nord</a>.<br><br>
+        
+        Feito isso o próximo passo foi re-adaptar algumas teclas de atalho, essa parte foi bem mais tranquila graças a forma como o arquivo de configuração do Sway funciona.<br><br>
+        
+        O arquivo de configuração do Sway é extremamente simples e legível, é quase como simplesmente falar o que você quer e ele vai fazer sem dor de cabeça nenhuma. Aqui está um trecho do meu arquivo de configuração:<br><br>
+        
+        <article>Ctrl+Shift+Print exec $term wf-recorder -a -f out.mkv</article>
+
+        Agora chegou a hora de explicar o que está acontecendo aqui encima. Bem, "bindsym" é a palavra chave para criar uma tecla de atalho, o que vem em seguida são as teclas que eu quero e depois disso a ação que esse tecla de atalho fará.<br>No caso do exemplo acima, após eu apertar as teclas <a>Ctrl, Shift e Print</a> juntas, uma janela de um terminal irá aparecer e dentro dela um programa de gravação de tela será executado, quando eu quiser finalizar a gravação, tudo o que eu preciso fazer é clicar na janela aberta e apertar as teclas <a>Ctrl e C</a> juntas. Após isso a janela fechará e a gravação de tela estará pronta.<br><br>
+        
+        Eu com toda certeza te enchi de informações que aparentam serem desconexas, mas confie em mim quando eu digo que elas tem sim uma relação bem lógica e que, quando analisada, é extremamente simples.<br><br>
+        
+        Tendo isso dito, acho que é seguro dizer com toda certeza do mundo que eu sou um nerd.</p>
+      
+    </section>
+      
+    <aside>
+      <a href="../06/08.html"><img src="../../img/tv.jpeg"></a><p><a href="../06/08.html">Minha nova TV</a><br><small>Junho 08, 2023</small></p>
+    </aside>
+
+    </div>
+</main>
+
+<footer class="container-fluid"><center><a class="contrast" href="https://github.com/pseudominimalista"><img width="48px" src="../../../img/github.svg"/></a> <a class="contrast" href="mailto:contato@pseudominimalista.com"><img width="48px" src="../../../img/email.svg"/></a></center></footer>
+</body>
+</html>
