@@ -21,7 +21,7 @@ html {
   --primary-focus:      #88C0D0;
   --secondary:          var(--primary-focus);
   --secondary-hover:    #8FBCBB;
-  --secondary-focus:    var(--color);
+  --secondary-focus:    var(--background-color);
   --contrast:           #434C5E;
   --contrast-hover:     #4C566A;
   --contrast-focus:     var(--muted-border-color);
