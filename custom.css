@@ -2,10 +2,29 @@ html {
     scroll-behavior: smooth;  
 }
 
-@media (prefers-reduced-motion) {
-    .hidden {
-        transition: none;
-    }
+:root {
+  --spacing-company: 3rem;
+  --font-weight: 400;
+  --border-radius: 0;
+  --background-color:   #2E3440;
+  --color:              #D8DEE9;
+  --h1-color:           #ECEFF4;
+  --h2-color:           #E5E9F0;
+  --h3-color:           #D8DEE9;
+  --h4-color:           #D8DEE9;
+  --h5-color:           #D8DEE9;
+  --h6-color:           #D8DEE9;
+  --muted-color:        #d8dee9;
+  --muted-border-color: #3B4252;
+  --primary:            #5E81AC;
+  --primary-hover:      #81A1C1;
+  --primary-focus:      #88C0D0;
+  --secondary:          #88C0D0;
+  --secondary-hover:    #8FBCBB;
+  --secondary-focus:    #D8DEE9;
+  --contrast:           #434C5E;
+  --contrast-hover:     #4C566A;
+  --contrast-focus:     #3B4252;
 }
 
 ::-webkit-scrollbar {
@@ -14,13 +33,6 @@ html {
 
 ::-webkit-scrollbar-thumb {
     background: var(--primary);
-}
-
-:root {
-    --spacing-company: 3rem;
-    --font-weight: 400;
-    --border-radius: 0;
-    animation: fade 1s;
 }
 
 h2,
@@ -34,28 +46,16 @@ hgroup> :last-child {
     background-size: cover;
 }
 
-
-/* Essa imagem foi retirada da coleção de imagens padrão do Google Sites, o link tá aqui se você tiver interesse:
-   https://lh3.googleusercontent.com/ZTKGRc7wopT8DELrEVIbMRx3L43B5qizSpUSRFn3RpR8S2wGOQOib4bJ1gE0UXkiMpiryRrgCD5oMVy-izsuodE=w16383 */
 .início {
-    background-image: url(img/início.jpeg);
+    background-image: url(img/nord_mountains.png);
 }
 
-
-/* Bem, eu basicamente só fiz essas duas classes para que as páginas tivessem imagens diferentes, e como o site está hostiado no github
-   eu não quero colocar um monte de imagens no repositório, no lugar disso eu decidi colocar links diretos para as imagens que eu quero.
-   
-   Isso acaba servindo também como uma forma de creditar os autores das imagens originais, de certa forma pelo menos...*/
 .projetos {
-    background-image: url(https://images.unsplash.com/photo-1514162005038-8332a12a5c9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-image: url(img/nord_valley.png);
 }
 
 .sobre {
-    background-image: url(https://images.unsplash.com/photo-1529346378633-c2b2a059c367?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-}
-
-main {
-  animation: main 1.2s;
+    background-image: url(img/nord_lake.png);
 }
 
 small {
@@ -83,27 +83,3 @@ aside p {
     margin-bottom: var(--spacing-company);
     line-height: 1.25;
   }
-
-
-/* Animações */
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-  
-}
-
-@keyframes main {
-  from {
-    transform: scale(98%);
-    opacity: 0;
-  }
-  to {
-    transform: scale(100%);
-    opacity: 1;
-  }
-  
-}
