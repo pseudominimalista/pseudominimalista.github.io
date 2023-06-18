@@ -48,19 +48,19 @@ hgroup> :last-child {
 }
 
 .início {
-    background-image: url(img/nord_mountains.png);
-}
-
-.projetos {
-    background-image: url(img/ign_colorful.png);
+    background-image: url(https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/Minimal-Nord.png);
 }
 
 .sobre {
-    background-image: url(img/nord_lake.png);
+    background-image: url(https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_dudeOnBuilding.png);
+}
+
+.projetos {
+    background-image: url(https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_colorful.png);
 }
 
 .blog {
-    background-image: url(img/kittyboard.png);
+    background-image: url(https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/kittyboard.png);
 }
 
 small {
