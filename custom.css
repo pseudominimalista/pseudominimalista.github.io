@@ -3,29 +3,29 @@
 html {scroll-behavior: smooth;}
 
 :root {
-  --spacing-company: 3rem;
-  --font-weight: 400;
-  --border-radius: 0;
-  --background-color:   #2E3440;
-  --color:              #D8DEE9;
-  --h1-color:           #ECEFF4;
-  --h2-color:           #E5E9F0;
-  --h3-color:           var(--color);
-  --h4-color:           var(--color);
-  --h5-color:           var(--color);
-  --h6-color:           var(--color);
-  --muted-color:        var(--color);
-  --muted-border-color: #3B4252;
-  --primary:            #5E81AC;
-  --primary-hover:      #81A1C1;
-  --primary-focus:      #88C0D0;
-  --secondary:          var(--primary-focus);
-  --secondary-hover:    #8FBCBB;
-  --secondary-focus:    var(--background-color);
-  --contrast:           #434C5E;
-  --contrast-hover:     #4C566A;
-  --contrast-focus:     var(--muted-border-color);
-  --card-background-color: var(--muted-border-color);
+  --spacing-company:        3rem;
+  --font-weight:            400;
+  --border-radius:          0;
+  --background-color:       #2E3440;
+  --color:                  #D8DEE9;
+  --h1-color:               #ECEFF4;
+  --h2-color:               #E5E9F0;
+  --h3-color:               var(--color);
+  --h4-color:               var(--color);
+  --h5-color:               var(--color);
+  --h6-color:               var(--color);
+  --muted-color:            var(--color);
+  --muted-border-color:     #3B4252;
+  --primary:                #5E81AC;
+  --primary-hover:          #81A1C1;
+  --primary-focus:          #88C0D0;
+  --secondary:              var(--primary-focus);
+  --secondary-hover:        #8FBCBB;
+  --secondary-focus:        var(--background-color);
+  --contrast:               #434C5E;
+  --contrast-hover:         #4C566A;
+  --contrast-focus:         var(--muted-border-color);
+  --card-background-color:  var(--muted-border-color);
 }
 
 ::-webkit-scrollbar {
