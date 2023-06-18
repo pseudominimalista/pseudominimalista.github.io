@@ -1,6 +1,6 @@
-html {  
-    scroll-behavior: smooth;  
-}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+*{font-family: 'JetBrains Mono', monospace !important;}
+html {scroll-behavior: smooth;}
 
 :root {
   --spacing-company: 3rem;
