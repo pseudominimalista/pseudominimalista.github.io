@@ -7,15 +7,17 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Fedora</title>
+        <title>Fedora Sericea</title>
         <link>https://pseudominimalista.github.io/p/fedora-sericea/</link>
         <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
         
         <guid>https://pseudominimalista.github.io/p/fedora-sericea/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/fedora-sericea/cover.png" alt="Featured image of post Fedora" /&gt;&lt;p&gt;Fedora Sericea (que nome complicado do cacete) é uma distro imutável (não vou explicar o que é isso) que vem com o Sway e alguns&lt;br&gt;
+        <description>&lt;img src="https://pseudominimalista.github.io/p/fedora-sericea/cover.png" alt="Featured image of post Fedora Sericea" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fedoraproject.org/sericea/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fedora Sericea&lt;/a&gt; (que nome complicado do cacete) é uma &lt;a class=&#34;link&#34; href=&#34;https://kairos.io/blog/2023/03/22/understanding-immutable-linux-os-benefits-architecture-and-challenges/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;distro imutável&lt;/a&gt; (não vou explicar o que é isso) que vem com o Sway e alguns&lt;br&gt;
 outros poucos programas pré-instalados, características que me fizeram instalar ela no momento que vi ela no website do Fedora.&lt;br&gt;
 Afinal ela junta os programas que eu mais uso e amo, uma base sempre atualizada e estável, tendo a adição de estar debaixo do&lt;br&gt;
-chapéu de uma empresa que não vai simplesmente matar o projeto: &lt;a class=&#34;link&#34; href=&#34;https://www.redhat.com/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+chapéu de uma empresa que não vai simplesmente matar o projeto: &lt;a class=&#34;link&#34; href=&#34;https://redhat.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A Red Hat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Um dos aspectos mais atraentes para mim foi a base imutável, que em suma, provê um nível de segurança impecável.&lt;br&gt;
 Outras coisas são: o sistema de arquivos BTRFS, integração de Flatpaks entre outras características.&lt;/p&gt;
@@ -24,14 +26,15 @@ Outras coisas são: o sistema de arquivos BTRFS, integração de Flatpaks entre 
         </item>
         <item>
         <title>Sway</title>
-        <link>https://pseudominimalista.github.io/p/sway/</link>
+        <link>https://pseudominimalista.github.io/p/sway-window-manager/</link>
         <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://pseudominimalista.github.io/p/sway/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/sway/cover.png" alt="Featured image of post Sway" /&gt;&lt;p&gt;Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.&lt;br&gt;
+        <guid>https://pseudominimalista.github.io/p/sway-window-manager/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/p/sway-window-manager/cover.png" alt="Featured image of post Sway" /&gt;&lt;p&gt;Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.&lt;br&gt;
 Eu só tô entediado e sem nada melhor para fazer.&lt;/p&gt;
-&lt;p&gt;Nos últimos dias dessa semana eu voltei a utilizar o Sway (A interface gráfica, não o programa da Microsoft) só por puro tédio.&lt;br&gt;
-Eu tive que pegar uma configuração antiga minha e reconfigurar &lt;em&gt;quase&lt;/em&gt; tudo para deixar ela atualizada e confortável para o&lt;br&gt;
+&lt;p&gt;Nos últimos dias dessa semana eu voltei a utilizar o &lt;a class=&#34;link&#34; href=&#34;https://swaywm.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sway&lt;/a&gt; (A interface gráfica, não o programa da Microsoft) só por puro tédio.&lt;br&gt;
+Eu tive que pegar uma configuração antiga minha e reconfigurar quase tudo para deixar ela atualizada e confortável para o&lt;br&gt;
 meu workflow atual, como por exemplo: uma troca na paleta de cores.&lt;/p&gt;
 &lt;p&gt;Antes a paleta de cores que eu usava era a &lt;a class=&#34;link&#34; href=&#34;https://catppuccin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Catppuccin Mocha&lt;/a&gt;, porém por alguma razão ela me dá dores de cabeça.&lt;br&gt;
@@ -49,7 +52,7 @@ do Sway que é extremamente simples e legível.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ctrl+Shift+Print exec $term wf-recorder -a -f out.mkv  
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Agora chegou a hora de explicar o que está acontecendo aqui encima. Bem, &amp;ldquo;bindsym&amp;rdquo; é a palavra chave para criar uma tecla de atalho,&lt;br&gt;
+&lt;/div&gt;&lt;p&gt;Agora chegou a hora de explicar o que está acontecendo aqui encima. Bem, “bindsym” é a palavra chave para criar uma tecla de atalho,&lt;br&gt;
 o que vem em seguida são as teclas que eu quero e depois disso a ação que esse tecla de atalho fará.&lt;/p&gt;
 &lt;p&gt;No caso do exemplo acima, após eu apertar as teclas Ctrl, Shift e Print juntas, uma janela de um terminal irá aparecer e dentro dela&lt;br&gt;
 um programa de gravação de tela será executado, quando eu quiser finalizar a gravação, tudo o que eu preciso fazer é clicar na janela&lt;br&gt;

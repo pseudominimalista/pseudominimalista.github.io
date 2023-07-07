@@ -8,38 +8,38 @@
         <language>en</language>
         <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/categories/google/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Workflow 100% num navegador</title>
-        <link>https://pseudominimalista.github.io/p/workflow-web/</link>
+        <link>https://pseudominimalista.github.io/p/workflow-num-navegador/</link>
         <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://pseudominimalista.github.io/p/workflow-web/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/workflow-web/cover.png" alt="Featured image of post Workflow 100% num navegador" /&gt;&lt;p&gt;Nos últimos meses passei a maior parte do meu tempo no navegador, não me refiro somente à consumo de mídia ou algo do gênero,&lt;br&gt;
+        <guid>https://pseudominimalista.github.io/p/workflow-num-navegador/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/p/workflow-num-navegador/cover.png" alt="Featured image of post Workflow 100% num navegador" /&gt;&lt;p&gt;Nos últimos meses passei a maior parte do meu tempo no navegador, não me refiro somente à consumo de mídia ou algo do gênero,&lt;br&gt;
 me refiro a trabalhos de escola, documentos, roteiros, vídeos, entre outras diversas coisas que não muito tempo atrás eu utilizaria&lt;br&gt;
 um programa dedicado para a tarefa.&lt;/p&gt;
 &lt;p&gt;Desde a concepção desse site eu já estava caminhando para esse tipo de Workflow mais centrado na Web, mas isso passou de uma&lt;br&gt;
 caminhada para uma corrida e não muito tempo depois cá estou eu escrevendo esse artigo através do &lt;a class=&#34;link&#34; href=&#34;https://vscode.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VSCode.dev&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Isso sim é algo que eu não esperaria vindo de mim, que até dezembro de 2022 usava o &lt;a class=&#34;link&#34; href=&#34;https://alpinelinux.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Alpine Linux&lt;/a&gt; com uma suíte de programas suckless&lt;br&gt;
+    &gt;Alpine Linux&lt;/a&gt; com uma suíte de programas &lt;a class=&#34;link&#34; href=&#34;https://suckless.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;suckless&lt;/a&gt;&lt;br&gt;
 como desktop principal e onde o meu Workflow era completamente offline (não é que eu não voltaria a ter esse workflow, mas atualmente&lt;br&gt;
 ele seria imprático para mim).&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Google Domains vai pro Vasco</title>
-        <link>https://pseudominimalista.github.io/p/google-domains/</link>
+        <link>https://pseudominimalista.github.io/p/google-domains-morreu/</link>
         <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://pseudominimalista.github.io/p/google-domains/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/google-domains/cover.png" alt="Featured image of post Google Domains vai pro Vasco" /&gt;&lt;p&gt;Hoje eu vi um vídeo no Youtube do Fireship falando sobre o assunto, o que me deixou extremamente decepcionado com o Google.&lt;/p&gt;
+        <guid>https://pseudominimalista.github.io/p/google-domains-morreu/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/p/google-domains-morreu/cover.png" alt="Featured image of post Google Domains vai pro Vasco" /&gt;&lt;p&gt;Hoje eu vi um vídeo no Youtube do Fireship falando sobre o assunto, o que me deixou extremamente decepcionado com o Google.&lt;/p&gt;
 &lt;p&gt;O Google é famoso por matar os próprios projetos, mas esse me quebrou, eu comprei um domínio faz um pouco menos que&lt;br&gt;
 2 meses no Google Domains e desde então utilizo as funções que ele traz de alias de e-mail e redirecionamento de páginas.&lt;br&gt;
-Cheguei até a usar o Google Sites como teste, mas depois, &lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;criei este website em que você está lendo esse artigo nesse exato momento&lt;/a&gt;¹&lt;br&gt;
+Cheguei até a usar o Google Sites como teste, mas depois, &lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;criei este website em que você está lendo esse artigo nesse exato momento¹&lt;/a&gt;&lt;br&gt;
 e fiz com que o meu domínio, pseudominimalista.com, se direcionasse para a minha página do Github: pseudominimalista.github.io.&lt;/p&gt;
 &lt;p&gt;Nesse momento estou transferindo a maior parte das minhas coisas para fora do Google, não por questões de privacidade ou algo do tipo,&lt;br&gt;
 só por pura insegurança do Google simplesmente se livrar do serviço sem mais nem menos.&lt;/p&gt;
 &lt;p&gt;Meus aliases, senhas, domínios, tudo o que eu puder mover para outros serviços/programas, tudo para fora do Google.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;¹ O site que eu estou me referindo era uma versão antiga que usava o framework &lt;a class=&#34;link&#34; href=&#34;https://picocss.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pico.css&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;¹ O site que eu estou me referindo era uma versão antiga que usava o framework Pico.css&lt;/em&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -64,7 +64,7 @@ Ela têm falado a algum tempo sobre esse assunto, e bem, hoje ela me convenceu.&
 &lt;li&gt;Bluetooth 5.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Nada mal para a minha primeira TV que comprei, eu acho&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Nada mal para a minha primeira TV que comprei, eu acho…&lt;/p&gt;
 </description>
         </item>
         
