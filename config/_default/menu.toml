@@ -1,0 +1,17 @@
+# Configure main menu and social menu
+[[main]]
+identifier = "tag"
+name = "Tags"
+url = "/tags"
+[main.params]
+icon = "tag"
+newtab = false
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/pseudominimalista"
+
+[social.params]
+icon = "brand-github"
+
