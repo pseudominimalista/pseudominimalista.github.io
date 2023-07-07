@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on pseudominimalista</title>
+        <link>https://pseudominimalista.github.io/tags/</link>
+        <description>Recent content in Tags on pseudominimalista</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Open Source</title>
+        <link>https://pseudominimalista.github.io/tags/open-source/</link>
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pseudominimalista.github.io/tags/open-source/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/tags/open-source/cover.png" alt="Featured image of post Open Source" /&gt;</description>
+        </item>
+        <item>
+        <title>Web</title>
+        <link>https://pseudominimalista.github.io/tags/web/</link>
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pseudominimalista.github.io/tags/web/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/tags/web/cover.png" alt="Featured image of post Web" /&gt;</description>
+        </item>
+        <item>
+        <title>Window Manager</title>
+        <link>https://pseudominimalista.github.io/tags/window-manager/</link>
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pseudominimalista.github.io/tags/window-manager/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/tags/window-manager/cover.png" alt="Featured image of post Window Manager" /&gt;</description>
+        </item>
+        <item>
+        <title>Android</title>
+        <link>https://pseudominimalista.github.io/tags/android/</link>
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pseudominimalista.github.io/tags/android/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/tags/android/cover.png" alt="Featured image of post Android" /&gt;</description>
+        </item>
+        <item>
+        <title>Compras</title>
+        <link>https://pseudominimalista.github.io/tags/compras/</link>
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pseudominimalista.github.io/tags/compras/</guid>
+        <description>&lt;img src="https://pseudominimalista.github.io/tags/compras/cover.png" alt="Featured image of post Compras" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
