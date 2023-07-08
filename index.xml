@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GreenBox</title>
+      <link>https://pseudominimalista.github.io/post/minha-paleta-de-cores/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/minha-paleta-de-cores/</guid>
+      <description>Isso mesmo, eu estou desenvolvendo a minha própria paleta de cores.
+No momento eu só tenho 3 cores, todas elas são tons de verde, porém, já adicionei ela no meu Window Manager e no meu menu de sistema.
+Eu estou me inspirando na paleta de cores Everforest, por conta de seus tons relaxantes e com ótimo contraste, a diferença é que eu quero fazer uma paleta de cores que combine com qualquer paisagem natural, não só florestas/matas fechadas.</description>
+    </item>
+    
     <item>
       <title>Usando o Hugo Framework</title>
       <link>https://pseudominimalista.github.io/post/usando-hugo/</link>

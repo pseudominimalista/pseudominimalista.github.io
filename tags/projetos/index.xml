@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos on Diogo Fernandes</title>
+    <link>https://pseudominimalista.github.io/tags/projetos/</link>
+    <description>Recent content in Projetos on Diogo Fernandes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/projetos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GreenBox</title>
+      <link>https://pseudominimalista.github.io/post/minha-paleta-de-cores/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/minha-paleta-de-cores/</guid>
+      <description>Isso mesmo, eu estou desenvolvendo a minha própria paleta de cores.
+No momento eu só tenho 3 cores, todas elas são tons de verde, porém, já adicionei ela no meu Window Manager e no meu menu de sistema.
+Eu estou me inspirando na paleta de cores Everforest, por conta de seus tons relaxantes e com ótimo contraste, a diferença é que eu quero fazer uma paleta de cores que combine com qualquer paisagem natural, não só florestas/matas fechadas.</description>
+    </item>
+    
+    <item>
+      <title>Usando o Hugo Framework</title>
+      <link>https://pseudominimalista.github.io/post/usando-hugo/</link>
+      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/usando-hugo/</guid>
+      <description>Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o Hugo! Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.
+Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e Milhas mais fácil de se ler do que HTML.</description>
+    </item>
+    
+  </channel>
+</rss>

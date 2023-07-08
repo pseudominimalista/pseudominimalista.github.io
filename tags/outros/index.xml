@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/outros/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Usando o Hugo Framework</title>
-      <link>https://pseudominimalista.github.io/post/usando-hugo/</link>
-      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
-      
-      <guid>https://pseudominimalista.github.io/post/usando-hugo/</guid>
-      <description>Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o Hugo! Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.
-Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e Milhas mais fácil de se ler do que HTML.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 02 Jul 2023 21:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/outros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proton Pass</title>
       <link>https://pseudominimalista.github.io/post/proton-pass/</link>

@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Outros</title>
-      <link>https://pseudominimalista.github.io/tags/outros/</link>
-      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
+      <title>Open Source</title>
+      <link>https://pseudominimalista.github.io/tags/open-source/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://pseudominimalista.github.io/tags/outros/</guid>
+      <guid>https://pseudominimalista.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projetos</title>
+      <link>https://pseudominimalista.github.io/tags/projetos/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/tags/projetos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Window Manager</title>
+      <link>https://pseudominimalista.github.io/tags/window-manager/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/tags/window-manager/</guid>
       <description></description>
     </item>
     
@@ -27,11 +45,11 @@
     </item>
     
     <item>
-      <title>Open Source</title>
-      <link>https://pseudominimalista.github.io/tags/open-source/</link>
+      <title>Outros</title>
+      <link>https://pseudominimalista.github.io/tags/outros/</link>
       <pubDate>Sun, 02 Jul 2023 21:00:00 +0000</pubDate>
       
-      <guid>https://pseudominimalista.github.io/tags/open-source/</guid>
+      <guid>https://pseudominimalista.github.io/tags/outros/</guid>
       <description></description>
     </item>
     
@@ -50,15 +68,6 @@
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pseudominimalista.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Window Manager</title>
-      <link>https://pseudominimalista.github.io/tags/window-manager/</link>
-      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pseudominimalista.github.io/tags/window-manager/</guid>
       <description></description>
     </item>
     
