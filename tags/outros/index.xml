@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outros on Bem-vindo ao meu blog!</title>
+    <link>https://pseudominimalista.github.io/tags/outros/</link>
+    <description>Recent content in Outros on Bem-vindo ao meu blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/outros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usando o Hugo Framework</title>
+      <link>https://pseudominimalista.github.io/post/usando-hugo/</link>
+      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/usando-hugo/</guid>
+      <description>Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o Hugo! Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.
+Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e Milhas mais fácil de se ler do que HTML.</description>
+    </item>
+    
+    <item>
+      <title>Proton Pass</title>
+      <link>https://pseudominimalista.github.io/post/proton-pass/</link>
+      <pubDate>Sun, 02 Jul 2023 21:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/proton-pass/</guid>
+      <description>Ontem, por volta das 21:00 eu estava no ChromeOS Flex fazendo o usual, checando minhas senhas e excluindo contas redundantes, até que eu chego no site do Proton e percebo que o Proton Pass tinha acabado de lançar, e ele tinha bem mais funcionalidade do que eu esperava.
+Começei a testar ele no navegador e no app mobile, e bem… adorei o serviço, tanto que em 1 hora de testes eu assinei o serviço pago, que me dá acesso à 20 Vaults (basicamente cofres aparte, algo como várias pastas para organização), configuração de TOTP (códigos de verificação aleatórios) e um número ilimitado de e-mail aliases</description>
+    </item>
+    
+  </channel>
+</rss>

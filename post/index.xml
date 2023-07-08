@@ -1,196 +1,85 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on pseudominimalista</title>
-        <link>https://pseudominimalista.github.io/post/</link>
-        <description>Recent content in Posts on pseudominimalista</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Usando o Hugo Framework</title>
-        <link>https://pseudominimalista.github.io/p/usando-hugo/</link>
-        <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/usando-hugo/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/usando-hugo/cover.svg" alt="Featured image of post Usando o Hugo Framework" /&gt;&lt;p&gt;Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;!&lt;br&gt;
-Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.&lt;/p&gt;
-&lt;p&gt;Ele te permite usar &lt;a class=&#34;link&#34; href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Markdown&lt;/a&gt; para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog.&lt;br&gt;
-Markdown em si é extremamente simples de escrever e &lt;strong&gt;Milhas&lt;/strong&gt; mais fácil de se ler do que HTML.&lt;/p&gt;
-&lt;p&gt;Quer um exemplo? olhe esse bloco de HTML retirado de um dos meus artigos:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;article-content&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;A única coisa que me assustou foi a cobrança de aproximadamente &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;R$120&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; no meu cartão de crédito, o porém é que isso foi culpa minha.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;br&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ao invés de ter selecionado a opção de pagamento mensal, eu deixei a opção de pagamento a cada 2 anos, o que explica a cobrança dos&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;br&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;$24/R$120&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; (esse em si é um preço promocional de 80% de desconto devido ao lançamento do serviço, então até que não foi algo tão ruim assim).&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;em&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;PS: Não, eu não estou usando mais o ChromeOS Flex, nem o Google Chrome, eu estou usando o Arch Linux com o navegador Librewolf no lugar.&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;em&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Isso é só a parte do conteúdo em si, tem muito mais dessas &amp;lt;&amp;gt; no código da página.&lt;br&gt;
-Em comparação, aqui está o mesmo trecho, só que em Markdown:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A única coisa que me assustou foi a cobrança de aproximadamente &lt;span class=&#34;sb&#34;&gt;`R$120`&lt;/span&gt; no meu cartão de crédito, o porém é que isso foi culpa minha.  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ao invés de ter selecionado a opção de pagamento mensal, eu deixei a opção de pagamento a cada 2 anos, o que explica a cobrança dos  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`$24/R$120`&lt;/span&gt; (esse em si é um preço promocional de 80% de desconto devido ao lançamento do serviço, então até que não foi algo tão ruim assim).  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Deixa eu esclarecer uma coisa: Os dois blocos resultam no exato mesmo conteúdo final. Por debaixo dos panos, o Hugo converte o Markdown&lt;br&gt;
-para HTML já que navegadores Web só entendem HTML, CSS, JavaScript e WebAssembly, porém não dá para negar que é muito mais fácil escrever em Markdown.&lt;/p&gt;
-&lt;p&gt;Tendo dito tudo isso, só me resta agradecer a você por ter lido tudo isso. Até o próximo post!&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Proton Pass</title>
-        <link>https://pseudominimalista.github.io/p/proton-pass/</link>
-        <pubDate>Sun, 02 Jul 2023 21:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/proton-pass/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/proton-pass/cover.png" alt="Featured image of post Proton Pass" /&gt;&lt;p&gt;Ontem, por volta das 21:00 eu estava no ChromeOS Flex fazendo o usual, checando minhas senhas e excluindo contas redundantes,&lt;br&gt;
-até que eu chego no site do Proton e percebo que o Proton Pass tinha acabado de lançar, e ele tinha bem mais funcionalidade do que eu esperava.&lt;/p&gt;
-&lt;p&gt;Começei a testar ele no navegador e no app mobile, e bem… adorei o serviço, tanto que em 1 hora de testes eu assinei&lt;br&gt;
-o serviço pago, que me dá acesso à 20 Vaults (basicamente cofres aparte, algo como várias pastas para organização), configuração de TOTP&lt;br&gt;
-(códigos de verificação aleatórios) e um número ilimitado de e-mail aliases (e-mails “falsos” que redirecionam os e-mails que recebem&lt;br&gt;
-para sua caixa de entrada verdadeira).&lt;/p&gt;
-&lt;p&gt;A única coisa que me assustou foi a cobrança de aproximadamente &lt;code&gt;R$120&lt;/code&gt; no meu cartão de crédito, o porém é que isso foi culpa minha.&lt;br&gt;
-Ao invés de ter selecionado a opção de pagamento mensal, eu deixei a opção de pagamento a cada 2 anos, o que explica a cobrança dos&lt;br&gt;
-&lt;code&gt;$24/R$120&lt;/code&gt; (esse em si é um preço promocional de 80% de desconto devido ao lançamento do serviço, então até que não foi algo tão ruim assim).&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;PS: Não, eu não estou usando mais o ChromeOS Flex, nem o Google Chrome, eu estou usando o Arch Linux com o navegador Librewolf no lugar.&lt;/em&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Workflow 100% num navegador</title>
-        <link>https://pseudominimalista.github.io/p/workflow-num-navegador/</link>
-        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/workflow-num-navegador/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/workflow-num-navegador/cover.png" alt="Featured image of post Workflow 100% num navegador" /&gt;&lt;p&gt;Nos últimos meses passei a maior parte do meu tempo no navegador, não me refiro somente à consumo de mídia ou algo do gênero,&lt;br&gt;
-me refiro a trabalhos de escola, documentos, roteiros, vídeos, entre outras diversas coisas que não muito tempo atrás eu utilizaria&lt;br&gt;
-um programa dedicado para a tarefa.&lt;/p&gt;
-&lt;p&gt;Desde a concepção desse site eu já estava caminhando para esse tipo de Workflow mais centrado na Web, mas isso passou de uma&lt;br&gt;
-caminhada para uma corrida e não muito tempo depois cá estou eu escrevendo esse artigo através do &lt;a class=&#34;link&#34; href=&#34;https://vscode.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;VSCode.dev&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Isso sim é algo que eu não esperaria vindo de mim, que até dezembro de 2022 usava o &lt;a class=&#34;link&#34; href=&#34;https://alpinelinux.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Alpine Linux&lt;/a&gt; com uma suíte de programas &lt;a class=&#34;link&#34; href=&#34;https://suckless.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;suckless&lt;/a&gt;&lt;br&gt;
-como desktop principal e onde o meu Workflow era completamente offline (não é que eu não voltaria a ter esse workflow, mas atualmente&lt;br&gt;
-ele seria imprático para mim).&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Google Domains vai pro Vasco</title>
-        <link>https://pseudominimalista.github.io/p/google-domains-morreu/</link>
-        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/google-domains-morreu/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/google-domains-morreu/cover.png" alt="Featured image of post Google Domains vai pro Vasco" /&gt;&lt;p&gt;Hoje eu vi um vídeo no Youtube do Fireship falando sobre o assunto, o que me deixou extremamente decepcionado com o Google.&lt;/p&gt;
-&lt;p&gt;O Google é famoso por matar os próprios projetos, mas esse me quebrou, eu comprei um domínio faz um pouco menos que&lt;br&gt;
-2 meses no Google Domains e desde então utilizo as funções que ele traz de alias de e-mail e redirecionamento de páginas.&lt;br&gt;
-Cheguei até a usar o Google Sites como teste, mas depois, &lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;criei este website em que você está lendo esse artigo nesse exato momento¹&lt;/a&gt;&lt;br&gt;
-e fiz com que o meu domínio, pseudominimalista.com, se direcionasse para a minha página do Github: pseudominimalista.github.io.&lt;/p&gt;
-&lt;p&gt;Nesse momento estou transferindo a maior parte das minhas coisas para fora do Google, não por questões de privacidade ou algo do tipo,&lt;br&gt;
-só por pura insegurança do Google simplesmente se livrar do serviço sem mais nem menos.&lt;/p&gt;
-&lt;p&gt;Meus aliases, senhas, domínios, tudo o que eu puder mover para outros serviços/programas, tudo para fora do Google.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;¹ O site que eu estou me referindo era uma versão antiga que usava o framework Pico.css&lt;/em&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Fedora Sericea</title>
-        <link>https://pseudominimalista.github.io/p/fedora-sericea/</link>
-        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/fedora-sericea/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/fedora-sericea/cover.png" alt="Featured image of post Fedora Sericea" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fedoraproject.org/sericea/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Fedora Sericea&lt;/a&gt; (que nome complicado do cacete) é uma &lt;a class=&#34;link&#34; href=&#34;https://kairos.io/blog/2023/03/22/understanding-immutable-linux-os-benefits-architecture-and-challenges/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;distro imutável&lt;/a&gt; (não vou explicar o que é isso) que vem com o Sway e alguns&lt;br&gt;
-outros poucos programas pré-instalados, características que me fizeram instalar ela no momento que vi ela no website do Fedora.&lt;br&gt;
-Afinal ela junta os programas que eu mais uso e amo, uma base sempre atualizada e estável, tendo a adição de estar debaixo do&lt;br&gt;
-chapéu de uma empresa que não vai simplesmente matar o projeto: &lt;a class=&#34;link&#34; href=&#34;https://redhat.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;A Red Hat&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Um dos aspectos mais atraentes para mim foi a base imutável, que em suma, provê um nível de segurança impecável.&lt;br&gt;
-Outras coisas são: o sistema de arquivos BTRFS, integração de Flatpaks entre outras características.&lt;/p&gt;
-&lt;p&gt;Isso é um assunto muito técnico, mas eu gosto de comentar sobre, eu acho relaxante.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sway</title>
-        <link>https://pseudominimalista.github.io/p/sway-window-manager/</link>
-        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/sway-window-manager/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/sway-window-manager/cover.png" alt="Featured image of post Sway" /&gt;&lt;p&gt;Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.&lt;br&gt;
-Eu só tô entediado e sem nada melhor para fazer.&lt;/p&gt;
-&lt;p&gt;Nos últimos dias dessa semana eu voltei a utilizar o &lt;a class=&#34;link&#34; href=&#34;https://swaywm.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Sway&lt;/a&gt; (A interface gráfica, não o programa da Microsoft) só por puro tédio.&lt;br&gt;
-Eu tive que pegar uma configuração antiga minha e reconfigurar quase tudo para deixar ela atualizada e confortável para o&lt;br&gt;
-meu workflow atual, como por exemplo: uma troca na paleta de cores.&lt;/p&gt;
-&lt;p&gt;Antes a paleta de cores que eu usava era a &lt;a class=&#34;link&#34; href=&#34;https://catppuccin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Catppuccin Mocha&lt;/a&gt;, porém por alguma razão ela me dá dores de cabeça.&lt;br&gt;
-Isso pode ter relação com o contraste que eles usam, eu sinceramente não sei. Eu só sei que ela me dá dor de cabeça,&lt;br&gt;
-então eu troquei ela por outra paleta de cores, essa que é confortável para os meus olhos e também é muito bonita: &lt;a class=&#34;link&#34; href=&#34;https://nordtheme.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Nord&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feito isso, o próximo passo foi re-adaptar algumas teclas de atalho, essa parte foi bem mais tranquila graças ao arquivo de configuração&lt;br&gt;
-do Sway que é extremamente simples e legível.&lt;/p&gt;
-&lt;p&gt;Aqui está um trecho do meu arquivo de configuração:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ctrl+Shift+Print exec $term wf-recorder -a -f out.mkv  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Agora chegou a hora de explicar o que está acontecendo aqui encima. Bem, “bindsym” é a palavra chave para criar uma tecla de atalho,&lt;br&gt;
-o que vem em seguida são as teclas que eu quero e depois disso a ação que esse tecla de atalho fará.&lt;/p&gt;
-&lt;p&gt;No caso do exemplo acima, após eu apertar as teclas Ctrl, Shift e Print juntas, uma janela de um terminal irá aparecer e dentro dela&lt;br&gt;
-um programa de gravação de tela será executado, quando eu quiser finalizar a gravação, tudo o que eu preciso fazer é clicar na janela&lt;br&gt;
-aberta e apertar as teclas Ctrl e C juntas. Após isso a janela fechará e a gravação de tela estará pronta.&lt;/p&gt;
-&lt;p&gt;Eu com toda certeza te enchi de informações que aparentam serem desconexas, mas confie em mim quando eu digo que elas tem&lt;br&gt;
-uma relação bem lógica e que, quando analisada, é extremamente simples.&lt;/p&gt;
-&lt;p&gt;Tendo isso dito, acho que é seguro dizer com toda certeza do mundo que eu sou um nerd.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Minha nova TV</title>
-        <link>https://pseudominimalista.github.io/p/minha-nova-tv/</link>
-        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/p/minha-nova-tv/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/p/minha-nova-tv/cover.png" alt="Featured image of post Minha nova TV" /&gt;&lt;p&gt;A televisão em questão é a Philips Série 6000 32&amp;quot; (32PHG6917/78), e que eu comprei basicamente por influência da minha mãe.&lt;br&gt;
-Ela têm falado a algum tempo sobre esse assunto, e bem, hoje ela me convenceu.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A especificações da televisão em questão são:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;32 polegadas&lt;/li&gt;
-&lt;li&gt;Suporte à HDR10, HLG e Pixel Plus HD&lt;/li&gt;
-&lt;li&gt;Resolução de 1366x768px&lt;/li&gt;
-&lt;li&gt;Sintonizador de canais&lt;/li&gt;
-&lt;li&gt;Android TV 10&lt;/li&gt;
-&lt;li&gt;4Gb de memória interna&lt;/li&gt;
-&lt;li&gt;ChromeCast integrado&lt;/li&gt;
-&lt;li&gt;Controle por Voz&lt;/li&gt;
-&lt;li&gt;Bluetooth 5.0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Nada mal para a minha primeira TV que comprei, eu acho…&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Posts on Bem-vindo ao meu blog!</title>
+    <link>https://pseudominimalista.github.io/post/</link>
+    <description>Recent content in Posts on Bem-vindo ao meu blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usando o Hugo Framework</title>
+      <link>https://pseudominimalista.github.io/post/usando-hugo/</link>
+      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/usando-hugo/</guid>
+      <description>Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o Hugo! Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.
+Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e Milhas mais fácil de se ler do que HTML.</description>
+    </item>
+    
+    <item>
+      <title>Proton Pass</title>
+      <link>https://pseudominimalista.github.io/post/proton-pass/</link>
+      <pubDate>Sun, 02 Jul 2023 21:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/proton-pass/</guid>
+      <description>Ontem, por volta das 21:00 eu estava no ChromeOS Flex fazendo o usual, checando minhas senhas e excluindo contas redundantes, até que eu chego no site do Proton e percebo que o Proton Pass tinha acabado de lançar, e ele tinha bem mais funcionalidade do que eu esperava.
+Começei a testar ele no navegador e no app mobile, e bem… adorei o serviço, tanto que em 1 hora de testes eu assinei o serviço pago, que me dá acesso à 20 Vaults (basicamente cofres aparte, algo como várias pastas para organização), configuração de TOTP (códigos de verificação aleatórios) e um número ilimitado de e-mail aliases</description>
+    </item>
+    
+    <item>
+      <title>Workflow 100% num navegador</title>
+      <link>https://pseudominimalista.github.io/post/workflow-num-navegador/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/workflow-num-navegador/</guid>
+      <description>Nos últimos meses passei a maior parte do meu tempo no navegador, não me refiro somente à consumo de mídia ou algo do gênero, me refiro a trabalhos de escola, documentos, roteiros, vídeos, entre outras diversas coisas que não muito tempo atrás eu utilizaria um programa dedicado para a tarefa.
+Desde a concepção desse site eu já estava caminhando para esse tipo de Workflow mais centrado na Web, mas isso passou de uma caminhada para uma corrida e não muito tempo depois cá estou eu escrevendo esse artigo através do VSCode.</description>
+    </item>
+    
+    <item>
+      <title>Google Domains vai pro Vasco</title>
+      <link>https://pseudominimalista.github.io/post/google-domains-morreu/</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/google-domains-morreu/</guid>
+      <description>Hoje eu vi um vídeo no Youtube do Fireship falando sobre o assunto, o que me deixou extremamente decepcionado com o Google.
+O Google é famoso por matar os próprios projetos, mas esse me quebrou, eu comprei um domínio faz um pouco menos que
+2 meses no Google Domains e desde então utilizo as funções que ele traz de alias de e-mail e redirecionamento de páginas.
+Cheguei até a usar o Google Sites como teste, mas depois, criei este website em que você está lendo esse artigo nesse exato momento¹</description>
+    </item>
+    
+    <item>
+      <title>Fedora Sericea</title>
+      <link>https://pseudominimalista.github.io/post/fedora-sericea/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/fedora-sericea/</guid>
+      <description>Fedora Sericea (que nome complicado do cacete) é uma distro imutável (não vou explicar o que é isso) que vem com o Sway e alguns outros poucos programas pré-instalados, características que me fizeram instalar ela no momento que vi ela no website do Fedora. Afinal ela junta os programas que eu mais uso e amo, uma base sempre atualizada e estável, tendo a adição de estar debaixo do chapéu de uma empresa que não vai simplesmente matar o projeto: A Red Hat.</description>
+    </item>
+    
+    <item>
+      <title>Sway</title>
+      <link>https://pseudominimalista.github.io/post/sway/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/sway/</guid>
+      <description>Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.
+Eu só tô entediado e sem nada melhor para fazer.
+Nos últimos dias dessa semana eu voltei a utilizar o Sway (A interface gráfica, não o programa da Microsoft) só por puro tédio. Eu tive que pegar uma configuração antiga minha e reconfigurar quase tudo para deixar ela atualizada e confortável para o meu workflow atual, como por exemplo: uma troca na paleta de cores.</description>
+    </item>
+    
+    <item>
+      <title>Minha nova TV</title>
+      <link>https://pseudominimalista.github.io/post/minha-nova-tv/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/minha-nova-tv/</guid>
+      <description>A televisão em questão é a Philips Série 6000 32&amp;quot; (32PHG6917/78), e que eu comprei basicamente por influência da minha mãe. Ela têm falado a algum tempo sobre esse assunto, e bem, hoje ela me convenceu.
+A especificações da televisão em questão são:
+32 polegadas Suporte à HDR10, HLG e Pixel Plus HD Resolução de 1366x768px Sintonizador de canais Android TV 10 4Gb de memória interna ChromeCast integrado Controle por Voz Bluetooth 5.</description>
+    </item>
+    
+  </channel>
 </rss>

@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Categories on pseudominimalista</title>
-        <link>https://pseudominimalista.github.io/categories/</link>
-        <description>Recent content in Categories on pseudominimalista</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Fri, 07 Jul 2023 15:05:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Outros</title>
-        <link>https://pseudominimalista.github.io/categories/outros/</link>
-        <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/categories/outros/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Google</title>
-        <link>https://pseudominimalista.github.io/categories/google/</link>
-        <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/categories/google/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/categories/google/cover.png" alt="Featured image of post Google" /&gt;</description>
-        </item>
-        <item>
-        <title>Linux</title>
-        <link>https://pseudominimalista.github.io/categories/linux/</link>
-        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://pseudominimalista.github.io/categories/linux/</guid>
-        <description>&lt;img src="https://pseudominimalista.github.io/categories/linux/cover.png" alt="Featured image of post Linux" /&gt;</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Categories on Bem-vindo ao meu blog!</title>
+    <link>https://pseudominimalista.github.io/categories/</link>
+    <description>Recent content in Categories on Bem-vindo ao meu blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://pseudominimalista.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
 </rss>

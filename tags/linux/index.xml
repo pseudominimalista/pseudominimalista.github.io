@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Bem-vindo ao meu blog!</title>
+    <link>https://pseudominimalista.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Bem-vindo ao meu blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora Sericea</title>
+      <link>https://pseudominimalista.github.io/post/fedora-sericea/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/fedora-sericea/</guid>
+      <description>Fedora Sericea (que nome complicado do cacete) é uma distro imutável (não vou explicar o que é isso) que vem com o Sway e alguns outros poucos programas pré-instalados, características que me fizeram instalar ela no momento que vi ela no website do Fedora. Afinal ela junta os programas que eu mais uso e amo, uma base sempre atualizada e estável, tendo a adição de estar debaixo do chapéu de uma empresa que não vai simplesmente matar o projeto: A Red Hat.</description>
+    </item>
+    
+    <item>
+      <title>Sway</title>
+      <link>https://pseudominimalista.github.io/post/sway/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/sway/</guid>
+      <description>Não me pergunte o porquê de eu querer fazer um artigo sobre uma interface gráfica.
+Eu só tô entediado e sem nada melhor para fazer.
+Nos últimos dias dessa semana eu voltei a utilizar o Sway (A interface gráfica, não o programa da Microsoft) só por puro tédio. Eu tive que pegar uma configuração antiga minha e reconfigurar quase tudo para deixar ela atualizada e confortável para o meu workflow atual, como por exemplo: uma troca na paleta de cores.</description>
+    </item>
+    
+  </channel>
+</rss>
