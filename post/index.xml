@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 16:36:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A GreenBox está finalizada!</title>
+      <link>https://pseudominimalista.github.io/post/greebox/</link>
+      <pubDate>Mon, 10 Jul 2023 16:36:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/post/greebox/</guid>
+      <description>A 2 dias atrás eu comentei sobre a paleta de cores que eu estava desenvolvendo, a GreenBox. Bem, como já deu para perceber, eu finalizei ela.
+Provavelmente eu faça ajustes nela com o passar do tempo, seja por não estar satisfeito com o contraste ou então com as tonalidades que escolhi, porém, fato é que eu terminei ela, são 4 cores no total (eu tenho também uma variante de 12 cores que uso no meu terminal, mas ela não tá boa o bastante para ser mostrada).</description>
+    </item>
+    
     <item>
       <title>GreenBox</title>
       <link>https://pseudominimalista.github.io/post/minha-paleta-de-cores/</link>
@@ -26,7 +36,7 @@ Eu estou me inspirando na paleta de cores Everforest, por conta de seus tons rel
       
       <guid>https://pseudominimalista.github.io/post/usando-hugo/</guid>
       <description>Depois de meses desde o meu primeiro site feito esse ano, eu finalmente comecei a usar um framework apropriado para blogging, o Hugo! Ok, ele não é um framework dedicado a fazer blogs, porém ele é umas das, senão a melhor opção que se tem na atualidade.
-Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e Milhas mais fácil de se ler do que HTML.</description>
+Ele te permite usar Markdown para gerar uma página, junte isso a um bom tema e pronto! Você tem um blog. Markdown em si é extremamente simples de escrever e milhas mais fácil de se ler do que HTML.</description>
     </item>
     
     <item>

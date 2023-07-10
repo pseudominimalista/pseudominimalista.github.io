@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 16:36:00 +0000</lastBuildDate><atom:link href="https://pseudominimalista.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projetos</title>
+      <link>https://pseudominimalista.github.io/tags/projetos/</link>
+      <pubDate>Mon, 10 Jul 2023 16:36:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/tags/projetos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://pseudominimalista.github.io/tags/web/</link>
+      <pubDate>Mon, 10 Jul 2023 16:36:00 +0000</pubDate>
+      
+      <guid>https://pseudominimalista.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Open Source</title>
       <link>https://pseudominimalista.github.io/tags/open-source/</link>
@@ -18,29 +36,11 @@
     </item>
     
     <item>
-      <title>Projetos</title>
-      <link>https://pseudominimalista.github.io/tags/projetos/</link>
-      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pseudominimalista.github.io/tags/projetos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Window Manager</title>
       <link>https://pseudominimalista.github.io/tags/window-manager/</link>
       <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pseudominimalista.github.io/tags/window-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://pseudominimalista.github.io/tags/web/</link>
-      <pubDate>Fri, 07 Jul 2023 15:05:00 +0000</pubDate>
-      
-      <guid>https://pseudominimalista.github.io/tags/web/</guid>
       <description></description>
     </item>
     
